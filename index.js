@@ -437,4 +437,4 @@ bot.on("guildMemberRemove", function(member){
     member.roles.add(role);
 })
 //Welcome Role Setup
-bot.login(token);
+bot.login(process.env.token);
